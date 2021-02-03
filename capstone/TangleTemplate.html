@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Tangle document</title>
+
+    <!-- Tangle -->
+    <script type="text/javascript" src="Tangle.js"></script>
+
+    <!-- TangleKit (optional) -->
+    <link rel="stylesheet" href="TangleKit/TangleKit.css" type="text/css">
+    <style type="text/css">
+    body,td,th {
+	font-family: Helvetica, "Helvetica Light", "Helvetica Neue", Arial;
+	font-size: 50px;
+}
+    body {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+    </style>
+    <script type="text/javascript" src="TangleKit/mootools.js"></script>
+    <script type="text/javascript" src="TangleKit/sprintf.js"></script>
+    <script type="text/javascript" src="TangleKit/BVTouchable.js"></script>
+    <script type="text/javascript" src="TangleKit/TangleKit.js"></script>
+
+    <!-- example -->
+    <script type="text/javascript">
+
+        function setUpTangle () {
+
+            var element = document.getElementById("example");
+
+            var tangle = new Tangle(element, {
+                initialize: function () {
+                    this.cookies = 4;
+                    this.caloriesPerCookie = 4;
+                },
+                update: function () {
+                    this.calories = this.cookies * this.caloriesPerCookie;
+                }
+            });
+        }
+
+    </script>
+</head>
+
+<body onload="setUpTangle();">
+
+<p></p>
+
+    <p id="example">
+        When you tell <span data-var="cookies" class="TKAdjustableNumber" data-min="1" data-max="100" data-step="1"> friends</span> a rumor your just heard, it will spread to 
+         <span data-var="calories"></span> more people.
+    </p>
+
+</body>
+</html>
