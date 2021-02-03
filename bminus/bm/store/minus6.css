@@ -1,0 +1,98 @@
+@charset "UTF-8";
+gray copy {
+	font-weight: bold;
+	color: #333333;
+	font-size: 12px;
+	font-family: "Courier New", Courier, monospace;
+}
+body,td,th {
+	font-family: Courier New, Courier, monospace;
+	font-size: 12px;
+	color: #000000;
+	text-align: left;
+	list-style: none;
+}
+.style1 {
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	text-decoration: none;
+	color: #262626;
+}
+a:link {
+	color: #ED1C6D;
+}
+a:visited {
+	color: #ED1C6D;
+}
+a:active {
+	color: #FFFFFF;
+	background-color: #FFFF00;
+}
+a:hover {
+	color:#FFFFFF;
+	background-color:#ED1C6D;}
+.selected_italic {
+	font-weight: bold;
+	color: #ED1C6D;
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+	font-style: oblique;
+}
+.pink_bold {
+	font-weight: bold;
+	color: #ED1C6D;
+	font-size: 12px;
+	font-family: "Courier New", Courier, monospace;
+}
+.white {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: "Courier New", Courier, monospace;
+}
+<!---google CSS--->	
+<style>
+  .override #googlecart-widget-head {
+border:solid 3px #ed1c6d; background:url(img/bk_tr_yel_80.png); font-size: 15px; font: Courier, monospace  }
+  .override #googlecart-arrow {
+    color:#ed1c6d
+  }
+  .override #googlecart-summary {
+    background:#faff7b
+  }
+  .override #googlecart-widget-body {
+    border:solid 3px #ed1c6d; background:#9ee38e
+  }
+  .override .googlecart-widget-item {
+    background:#FFFFFF
+  }
+ .override .googlecart-widget-price {
+    background:#ed1c6d
+  }
+  .override .googlecart-widget-totalprice {
+    background:#ed1c6d
+  }
+body {
+	background-color: #FFFFFF
+}
+ .override .googlecart-widget-footertext {
+    background:#9ee38e
+  }
+.style12 {font-weight: bold;
+	color: #ED1C6D;
+	font-size: 12px;
+}
+  .override .googlecart-widget-totalmessage {
+    background:#9ee38e
+  }
+  .override .googlecart-widget-totalprice {
+    background:#ED1C6D
+  }
+  .override .googlecart-widget-disclaimer {
+    background:#9ee38e
+  }
+  .override .googlecart-widget-checkout {
+    background:#9ee38e
+  }

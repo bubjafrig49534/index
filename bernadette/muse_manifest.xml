@@ -1,0 +1,37 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="false" ftp_hostname="ftp://ftp.marchummel.com" ftp_rootfolder="/public_html/misc/story/bernadette/" exportTarget="FTP" resolutions="1x" timestamp="1421019326456">
+  <folder name="css">
+    <file name="site_global.css" crc="483852050"/>
+    <file name="index.css" crc="400383693" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="mypalette.aco" crc="353663200" mt="1419191844000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index"/>
+    <file name="museutils.js" crc="3777594392" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="117544926" ref="index"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="designed-the.jpg" crc="530617341" ref="index"/>
+    <file name="youre-wearing.jpg" crc="4124897807" ref="index"/>
+    <file name="jeans_img.jpg" crc="455091965" ref="index"/>
+    <file name="scroll.gif" crc="505672992" ref="index"/>
+    <file name="who.png" crc="4267322007" ref="index"/>
+    <file name="jeans.png" crc="181951405" ref="index"/>
+    <file name="shirt_pre-size.jpg" crc="3931705411" ref="index"/>
+    <file name="who-figured-out.gif" crc="183972732" ref="index"/>
+    <file name="and-who-picked.gif" crc="3853836119" ref="index"/>
+    <file name="type.jpg" crc="4030588741" ref="index"/>
+    <file name="like-typographers-and-architects.gif" crc="359392880" ref="index"/>
+    <file name="they-create-and-we-consume.jpg" crc="279872649" ref="index"/>
+    <file name="paulie3.gif" crc="4180038492" ref="index"/>
+    <file name="bernadette.gif" crc="173411811" ref="index"/>
+    <file name="top01.jpg" crc="304312521" ref="index"/>
+    <file name="bedroom.jpg" crc="4123265219" ref="index"/>
+    <file name="blue-dishes.jpg" crc="4105170521" ref="index"/>
+    <file name="intricately-embellished.gif" crc="4273755245" ref="index"/>
+    <file name="end.gif" crc="4161308232" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3931872078" mt="1421019303615" redirect="true"/>
+</manifest>
